@@ -139,6 +139,11 @@
       color: #5b2c8a;
     }
     .card.program .btn-primary:hover { background: #fff; }
+    .btn-disabled {
+      background: #ececf1;
+      color: #999;
+      cursor: not-allowed;
+    }
     footer {
       text-align: center;
       color: rgba(255,255,255,0.9);
@@ -214,6 +219,18 @@ body.gate-locked > *:not(#gateOverlay){filter:blur(14px);pointer-events:none;use
         <div class="links">
           <a class="btn btn-primary" href="https://docs.google.com/document/d/1guJmiuqpMQoX00wfgNUCNxxrBN_qG721r4SdNxv7ca4/edit" target="_blank" rel="noopener">📄 Конспект</a>
           <a class="btn btn-primary" href="https://disk.yandex.ru/i/Ur_9IpiRiiOkuA" target="_blank" rel="noopener">🎬 Видео</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="card-label">Занятие 4</span>
+        <h2>Своя RAG-база на своём сервере: запуск под управлением агента</h2>
+        <p class="card-date">В плане · дата уточняется</p>
+        <p class="card-desc">Продолжение темы корпоративной памяти: база знаний компании на собственном VPS вместо облачного сервиса. Разбираем, что стоит за «своим сервером» — аренда, железо, администрирование, — и собираем рабочую базу знаний: покупка сервера, развёртывание образа, веб-интерфейс, подключение к агенту. Всю техническую часть делает агент-администратор: вам остаётся выбрать тариф, заполнить несколько полей и нажать «установи».</p>
+        <div class="links">
+          <a class="btn btn-primary" href="https://mrvolkomorov.github.io/vps-voitta-rag-guide/" target="_blank" rel="noopener">📘 Справка: своя RAG-база без терминала</a>
+          <span class="btn btn-disabled">📄 Конспект появится после занятия</span>
+          <span class="btn btn-disabled">🎬 Видео появится позже</span>
         </div>
       </article>
 
